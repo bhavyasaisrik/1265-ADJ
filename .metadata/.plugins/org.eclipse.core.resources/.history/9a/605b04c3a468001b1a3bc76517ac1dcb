@@ -1,0 +1,9 @@
+package com.mysql.jdbc;
+
+public interface PreparedStatement {
+
+	void setString(int i, String string);
+
+	int executeUpdate();
+
+}
